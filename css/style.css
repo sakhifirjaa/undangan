@@ -9762,3 +9762,14 @@ a.text-dark:hover, a.text-dark:focus {
     border-right: none !important;
   }
 }
+.img-circle {
+  border-radius: 50%; /* Membuat gambar berbentuk lingkaran */
+  object-fit: cover; /* Menjaga gambar tetap proporsional */
+  width: 250px; /* Menentukan ukuran diameter gambar */
+  height: 250px; /* Menentukan ukuran diameter gambar */
+  top: 50%; /* Menempatkan gambar di tengah secara vertikal */
+  left: 50%; /* Menempatkan gambar di tengah secara horizontal */
+  transform: translate(-50%, -50%); /* Mengoreksi posisi agar tepat di tengah */
+}
+
+
